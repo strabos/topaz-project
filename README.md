@@ -168,7 +168,7 @@ Another endpoint that returns all information about an object, including its ID 
 | Research | H | 3hrs| 3.5hrs | 3.5hrs |
 | Making Project Proposal | H | 3hrs| 3hrs | 3hrs |
 | Adding Psuedocode | H | 2hrs| - | - |
-| Retreiving the API Endpoints necessary | H | 1hrs| - | - |
+| Retreiving the API Endpoints necessary | H | 2hrs| - | - |
 | Testing API Endpoints | H | 2hrs| - | - |
 | Make Try/Catch | H | 1hrs | - | - |
 | Add Axios and Await | H | 1hrs| - |  |
@@ -179,15 +179,13 @@ Another endpoint that returns all information about an object, including its ID 
 | Grab user input | H | 2hrs| - | - |
 | Link user's color choice to returned object ID's | H | 3hrs| - | - |
 | Return image of the object ID | H | 2hrs| - | - |
-| Add mediaQuery | H | 2hrs| - | - |
+| Add mediaQuery | H | 3hrs| - | - |
 | Format response and parameters | H | 2.5hrs| - | - |
 | Test functionality | H | 3hrs| - | - |
-| Debug | H | 3hrs| - | - |
 | Add CSS picture frame | H | 3hrs| - | - |
 | Re-format page | H | 3hrs| - | - |
 | Style buttons and text responses | H | 3hrs| - | - |
-
-| Total | H | 47hrs| 5hrs | 5hrs |
+| Total | H | 49hrs| 5hrs | 5hrs |
 
 ## Code Snippet
 
