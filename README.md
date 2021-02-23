@@ -24,7 +24,7 @@ API endpoint that grabs colors based off Object ID of one of the museum objects:
     "stat": "ok",
     "event_publishing_state": "ok"
 ```
-Another endpoint that returns all information about an object, including its ID.
+Another endpoint that returns all information about an object, including its ID and IMG URL.
 ```
 {
     "objects": [
@@ -141,6 +141,7 @@ Another endpoint that returns all information about an object, including its ID.
 #### PostMVP  
 - Be able to search by multiple colors 
 - Add stylized border around the picture frame that matches the color chosen
+- Add a consistent CSS theme and button wiggles
 - Add time-periods as a search option
 
 ## Project Schedule
@@ -171,22 +172,25 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Research | H | 3hrs| 3.5hrs | 3.5hrs |
 | Making Project Proposal | H | 2hrs| 2hrs | 2hrs |
 | Adding Psuedocode| H | 2hrs| - | - |
-| Retreiving API Endpoints necessary | H | 2hrs| - | - |
+| Retreiving the API Endpoints necessary | H | 2hrs| - | - |
 | Testing API Endpoints | H | 2 | - | - |
-| Create HTML structure | H | 2.5 | - | - |
+| Make Try/Catch | H | 1 | - | - |
+| Add Axios and Await | H | 1 | - | - |
+| Create HTML structure | H | 1 | - | - |
 | Make CSS buttons and flexboxes | H | 3hrs | - | - |
 | Set up JS forms | H | 3hrs| - | - |
 | Add Eventlisteners | H | 2 | - | - |
 | Grab user input | H | 2hrs| - | - |
 | Link user's color choice to returned object ID's| H | 3hrs| - | - |
 | Return image of the object ID | H | 3hrs| - | - |
-| Format response and parameters (title, description) | H | 2hrs| - | - |
+| Add mediaQuery | H | 1 | - | - |
+| Format response and parameters (title, description) | H | 1hrs| - | - |
 | Test functionality | H | 1hr| - | - |
 | Debug | H | 1hr | - | - |
-| Adding CSS picture frame| H | 3hrs| - | - |
-| Format page | H | 3hrs| - | - |
-| Style buttons and responses | H | 3hrs| - | - |
-| Add option to select multiple colors | H | 3hrs| - | - |
+| Post-MVP: Add CSS picture frame!| H | 3hrs| - | - |
+| Post-MVP: Re-format page | H | 3hrs| - | - |
+| Post-MVP: Style buttons and text responses | H | 3hrs| - | - |
+| Post-MVP: Add option to select multiple colors | H | 3hrs+| - | - |
 
 | Total | H | 45hrs| - | - |
 
