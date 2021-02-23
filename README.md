@@ -191,7 +191,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Re-format page | H | 3hrs| - | - |
 | Style buttons and text responses | H | 3hrs| - | - |
 
-
+| Total | H | 47hrs| 5hrs | 5hrs |
 
 ## Code Snippet
 
