@@ -136,6 +136,7 @@ Another endpoint that returns all information about an object, including its ID 
 #### MVP 
 - Create color picker functionality with buttons
 - Use 2 API endpoints 
+- Have mediaquery that allows to smooth transition
 - Return a randomized artwork and description that contains one of the specified colors
 
 #### PostMVP  
