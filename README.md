@@ -187,10 +187,10 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Format response and parameters (title, description) | H | 1hrs| - | - |
 | Test functionality | H | 1hr| - | - |
 | Debug | H | 1hr | - | - |
-| Post-MVP: Add CSS picture frame!| H | 3hrs| - | - |
-| Post-MVP: Re-format page | H | 3hrs| - | - |
-| Post-MVP: Style buttons and text responses | H | 3hrs| - | - |
-| Post-MVP: Add option to select multiple colors | H | 3hrs+| - | - |
+| Add CSS picture frame!| H | 3hrs| - | - |
+| Re-format page | H | 3hrs| - | - |
+| Style buttons and text responses | H | 3hrs| - | - |
+| Add option to select multiple colors | H | 3hrs| - | - |
 
 | Total | H | 45hrs| - | - |
 
