@@ -169,31 +169,29 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-
 | Research | H | 3hrs| 3.5hrs | 3.5hrs |
-| Making Project Proposal | H | 2hrs| 2hrs | 2hrs |
-| Adding Psuedocode| H | 2hrs| - | - |
-| Retreiving the API Endpoints necessary | H | 2hrs| - | - |
-| Testing API Endpoints | H | 2 | - | - |
-| Make Try/Catch | H | 1 | - | - |
-| Add Axios and Await | H | 1 | - | - |
-| Create HTML structure | H | 1 | - | - |
-| Make CSS buttons and flexboxes | H | 3hrs | - | - |
+| Making Project Proposal | H | 3hrs| 3hrs | 3hrs |
+| Adding Psuedocode | H | 2hrs| - | - |
+| Retreiving the API Endpoints necessary | H | 1hrs| - | - |
+| Testing API Endpoints | H | 2hrs| - | - |
+| Make Try/Catch | H | 1hrs | - | - |
+| Add Axios and Await | H | 1hrs| - |  |
+| Create HTML structure | H | 1hrs| - | - |
+| Make CSS buttons and flexboxes | H | 3hrs| - | - |
 | Set up JS forms | H | 3hrs| - | - |
-| Add Eventlisteners | H | 2 | - | - |
+| Add Eventlisteners | H | 3hrs| - | - |
 | Grab user input | H | 2hrs| - | - |
-| Link user's color choice to returned object ID's| H | 3hrs| - | - |
-| Return image of the object ID | H | 3hrs| - | - |
-| Add mediaQuery | H | 1 | - | - |
-| Format response and parameters (title, description) | H | 1hrs| - | - |
-| Test functionality | H | 1hr| - | - |
-| Debug | H | 1hr | - | - |
-| Add CSS picture frame!| H | 3hrs| - | - |
+| Link user's color choice to returned object ID's | H | 3hrs| - | - |
+| Return image of the object ID | H | 2hrs| - | - |
+| Add mediaQuery | H | 2hrs| - | - |
+| Format response and parameters | H | 2.5hrs| - | - |
+| Test functionality | H | 3hrs| - | - |
+| Debug | H | 3hrs| - | - |
+| Add CSS picture frame | H | 3hrs| - | - |
 | Re-format page | H | 3hrs| - | - |
 | Style buttons and text responses | H | 3hrs| - | - |
-| Add option to select multiple colors | H | 3hrs| - | - |
 
-| Total | H | 45hrs| - | - |
+
 
 ## Code Snippet
 
