@@ -9,7 +9,7 @@
 This web-based app uses the Cooper Hewitt database to generate art peices through a color picker functionality. The user can press a colored button to generate an artwork that has the input color. A random art work will return listing the title, medium, and full color palatte. This is basically a search tool for finding art with a specific color.
 
 ## API and Data Sample
-[API:] (https://api.collection.cooperhewitt.org/rest/)
+[API:] (https://collection.cooperhewitt.org/api/)
 API endpoint that grabs colors based off Object ID of one of the museum objects. There will be a function that string interpolates the color input and a Math.random function which will produce a number from 1-10 that will act as the "page number". The API endpoint for the event listener will contain two parameters which are string interpolated.
 ```
     "object_id": "18345487",
