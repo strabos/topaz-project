@@ -159,13 +159,9 @@ Another endpoint that returns all information about an object, including its ID 
 |March 1| Presentations | Incomplete
 
 ## Priority Matrix
-[priority matrix:](https://lucid.app/lucidchart/invitations/accept/1194e4e0-8e7a-4e6b-bbaa-8b69f5ed40aa)
+[priority matrix](https://lucid.app/lucidchart/invitations/accept/1194e4e0-8e7a-4e6b-bbaa-8b69f5ed40aa)
 
 ## Timeframes
-
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
