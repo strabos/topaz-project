@@ -128,7 +128,7 @@ Another endpoint that returns all information about an object, including its ID 
         },
 ```
 ## Wireframes
-[https://wireframe.cc/3G5d96](google.com)
+[https://wireframe.cc/3G5d96](wireframe)
 
 
 ### MVP/PostMVP
