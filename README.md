@@ -10,7 +10,7 @@ This web-based app uses the Cooper Hewitt database to generate art peices throug
 
 ## API and Data Sample
 [API:] (https://api.collection.cooperhewitt.org/rest/)
-API endpoint that grabs colors based off Object ID of one of the museum objects:
+API endpoint that grabs colors based off Object ID of one of the museum objects. There will be a function that string interpolates the color input and a Math.random function which will produce a number from 1-10 that will act as the "page number". The API endpoint for the event listener will contain two parameters which are string interpolated.
 ```
     "object_id": "18345487",
     "colors": [
@@ -24,7 +24,7 @@ API endpoint that grabs colors based off Object ID of one of the museum objects:
     "stat": "ok",
     "event_publishing_state": "ok"
 ```
-Another endpoint that returns all information about an object, including its ID and IMG URL.
+Another endpoint that returns all information about an object, including its ID and IMG URL. This enpoint returns one object if the parameters are set to "page: " and "per page: 1"
 ```
 {
     "objects": [
