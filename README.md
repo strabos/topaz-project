@@ -135,7 +135,6 @@ Another endpoint that returns all information about an object, including its ID 
 
 #### MVP 
 - Create color picker functionality with buttons
-- Use 2 API endpoints 
 - Have mediaquery that allows to smooth transition
 - Return a randomized artwork and description that contains one of the specified colors
 
@@ -167,18 +166,18 @@ Another endpoint that returns all information about an object, including its ID 
 | --- | :---: |  :---: | :---: | :---: |
 | Research | H | 3hrs| 3.5hrs | 3.5hrs |
 | Making Project Proposal | H | 3hrs| 3hrs | 3hrs |
-| Adding Psuedocode | H | 2hrs| - | - |
-| Retreiving the API Endpoints necessary | H | 2hrs| - | - |
-| Testing API Endpoints | H | 2hrs| - | - |
-| Make Try/Catch | H | 1hrs | - | - |
-| Add Axios and Await | H | 1hrs| - |  |
-| Create HTML structure | H | 1hrs| - | - |
+| Adding Psuedocode | H | 2hrs| 1 | 1 |
+| Retreiving the API Endpoints necessary | H | 2hrs| 2.5 | 2.5 |
+| Testing API Endpoints | H | 2hrs| 2 | 2 |
+| Make Try/Catch | H | 1hrs | .5 | .5 |
+| Add Axios and Await | H | 1hrs| .5 | .5 |
+| Create HTML structure | H | 1hrs| 1 | 1 |
 | Make CSS buttons and flexboxes | H | 3hrs| - | - |
-| Set up JS forms | H | 3hrs| - | - |
-| Add Eventlisteners | H | 3hrs| - | - |
-| Grab user input | H | 2hrs| - | - |
-| Link user's color choice to returned object ID's | H | 3hrs| - | - |
-| Return image of the object ID | H | 2hrs| - | - |
+| Set up JS forms | H | 3hrs| 1 | 1 |
+| Add Eventlisteners | H | 3hrs| 1 | 1 |
+| Grab user input | H | 2hrs| 1.5 | 1.5 |
+| Link user's color choice to returned object ID's | H | 3hrs| 2 | 2 |
+| Return image of the object ID | H | 2hrs| 0 | 0 |
 | Add mediaQuery | H | 3hrs| - | - |
 | Format response and parameters | H | 2.5hrs| - | - |
 | Test functionality | H | 3hrs| - | - |
