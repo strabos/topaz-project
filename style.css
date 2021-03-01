@@ -1,0 +1,294 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(CooperHewitt-Bold.otf)
+}
+/* NAV */
+.Nav {
+  display: flex;
+  flex-direction: row;
+  font-family: myFirstFont;
+  font-size: 50px;
+  margin: 0px;
+  border-bottom: black solid 1px;
+  align-items: stretch;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  justify-content: space-between;
+  transition: all;
+  color:#313131;
+  -webkit-animation:colorchange 20s infinite alternate;
+}
+
+
+
+.container {
+margin-top: 30px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+height: 500px;
+margin-bottom: 30px;
+}
+div.artwork {
+  height: 500px;
+  width: 800px;
+  display: flexbox;
+  justify-content: center;
+}
+#art-image {
+  justify-content: center;
+
+}
+img {
+  height: 500px;
+  max-width: 800px;
+ 
+}
+
+#art-data{
+  display: flexbox;
+  flex-direction: row;
+  font-family: myFirstFont;
+  height: 200px;
+  border: black solid 1px;
+  padding-left: 20px;
+}
+
+p.title {
+  background-color: violet;
+}
+
+div.buttons {
+  display: flex;
+  flex-direction: column;
+  max-width: 100px;
+  padding: 30px;
+  justify-content: space-between;
+  font-family: myFirstFont;
+  align-items: flex-start;
+  
+}
+
+/*  source for buttons: https://css-tricks.com/overriding-default-button-styles/ */
+.fun-button {
+    display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.fun-button:hover,
+.fun-button:focus {
+    background: #0053ba;
+}
+
+.fun-button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+.fun-button:active {
+    transform: scale(0.99);
+}
+/* RED */
+#red {
+  background-color: red;
+}
+#red:hover {
+  background:lightgrey;
+}
+/* BLUE */
+#blue {
+  background-color:blue;
+}
+#blue:hover {
+  background:lightgrey;
+}
+/* YELLOW */
+#yellow {
+  background-color: yellow;
+}
+#yellow:hover {
+  background:lightgrey;
+}
+/* BLACK */
+#black {
+  background-color:black;
+}
+#black:hover {
+  background:lightgrey;
+}
+/* WHITE */
+#white {
+  background-color:white;
+}
+#white:hover {
+  background:lightgrey;
+}
+/* GREEN */
+#green {
+  background-color:green;
+}
+#green:hover {
+  background:lightgrey;
+}
+/* PINK */
+#pink {
+  background-color:pink;
+}
+#pink:hover {
+  background:lightgrey;
+}
+/* BROWN */
+#brown {
+  background-color:brown;
+}
+#brown:hover {
+  background:lightgrey;
+}
+/* ORANGE */
+#orange {
+  background-color:orange;
+}
+#orange:hover {
+  background:lightgrey;
+}
+
+
+/* FOOTER */
+img.logo {
+  height: 150px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+/* ANIMATION SOURCE: https://codepen.io/raaasin/pen/quvHr */
+@-webkit-keyframes colorchange {
+  0% {
+    
+    color: blue;
+  }
+  
+  10% {
+    
+    color: #8e44ad;
+  }
+  
+  20% {
+    
+    color: #1abc9c;
+  }
+  
+  30% {
+    
+    color: #d35400;
+  }
+  
+  40% {
+    
+    color: blue;
+  }
+  
+  50% {
+    
+    color: #34495e;
+  }
+  
+  60% {
+    
+    color: blue;
+  }
+  
+  70% {
+    
+    color: #2980b9;
+  }
+  80% {
+ 
+    color: #f1c40f;
+  }
+  
+  90% {
+ 
+    color: #2980b9;
+  }
+  
+  100% {
+    
+    color: pink;
+  }
+}
+
+/* MEDIA QUERIES */
+
+/* 1100px */
+
+@media only screen and (max-width: 1100px){
+  nav {
+    font-size: 30px;  
+  }
+  }
+
+
+/* 700px */
+
+@media only screen and (max-width: 700px){
+  div.buttons {
+    flex-direction: row;
+    max-width: 350px;
+    padding: 2px;
+    justify-content: center space-between;
+  }
+}
+@media only screen and (max-width: 700px){
+  .fun-button {
+    padding: 9px;
+  }
+}
+@media only screen and (max-width: 700px){
+  .container {
+    flex-direction: column;
+  }
+}
+
+/* PHONE: 420px */
+
+@media only screen and (max-width: 420px){
+  img,
+  div.artwork {
+    display: flex;
+    height: 300px;
+    max-width: 100%;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 420px){
+  .container {
+    justify-content: space-evenly;
+    height: 350px ;
+    max-width: 400px ;
+    margin-top: 10px;
+  }
+}
+@media only screen and (max-width: 420px){
+  .buttons {
+    display: flex;
+    max-width: 350px;
+    justify-content: space-around;
+  }
+}
