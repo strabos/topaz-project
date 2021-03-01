@@ -149,12 +149,12 @@ Another endpoint that returns all information about an object, including its ID 
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Feb 22-23| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|Feb 23| Project Approval / Start Psuedocode/ HTML | Incomplete
-|Feb 24| Initial API call, Core Application Structure (HTML, CSS, etc.), and outline functions | Incomplete
-|Feb 24| Work on JavaScript and set up event listeners| Incomplete
-|Feb 25| CSS, test for functionality, MVP | Incomplete
-|Feb 26| Media query, and work on post-MVP's including a multiple parameter search | Incomplete
+|Feb 22-23| Prompt / Wireframes / Priority Matrix / Timeframes | complete
+|Feb 23| Project Approval / Start Psuedocode/ HTML | complete
+|Feb 24| Initial API call, Core Application Structure (HTML, CSS, etc.), and outline functions | complete
+|Feb 24| Work on JavaScript and set up event listeners| complete
+|Feb 25| CSS, test for functionality, MVP | complete
+|Feb 26| Media query, and work on post-MVP's including a multiple parameter search | complete
 |March 1| Presentations | Incomplete
 
 ## Priority Matrix
