@@ -17,6 +17,7 @@ const getArt = async (color, pageNumber) => {
 }
 
 getArt()
+
 //make function for dynamic HTML including descriptions
 function showData(data) {
   const dataContainer = document.querySelector("#art-data")
@@ -27,7 +28,7 @@ function showData(data) {
     `
     dataContainer.insertAdjacentHTML("beforeend", artInfo)
 }
-// new div and function for the image
+// making a seperate div for the image so that it can be manipulated in CSS easier
 function showImage(data) {
   const imageContainer = document.querySelector("#art-image")
   const artImage = `
@@ -36,6 +37,7 @@ function showImage(data) {
   imageContainer.insertAdjacentHTML("beforeend", artImage)
 }
 //BUTTONS
+//Button functionality and adding event listenters for each button
 const redButton = document.querySelector("#red")
 redButton.addEventListener("click", function () {
   const inputValue = "red"
@@ -82,7 +84,7 @@ orangeButton.addEventListener("click", function () {
   getArt(inputValue)
 })
 
-//Removing Text
+//Removing text so that the descriptions dont stack
 function removeText() {
   const textContainer = document.querySelector("#art-data")
   while (textContainer.lastChild) {
@@ -91,7 +93,7 @@ function removeText() {
 }
 removeText()
 
-
+//Removing the images so that the images dont stack
 function removeArt() {
   const artContainer = document.querySelector("#art-image")
   while (artContainer.lastChild) {
@@ -100,11 +102,12 @@ function removeArt() {
 }
 removeArt()
 
-
+//Randomizer for the "page number" in the API address
+//This is necessary so that a new image shows up under each color
 function getRandomInt(min, max) {
   min = Math.ceil(min);
   max = Math.floor(max);
   return Math.floor(Math.random()*(max-min)+min)
 }
-getRandomInt(1, 40)
+
 
