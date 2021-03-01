@@ -172,29 +172,33 @@ Another endpoint that returns all information about an object, including its ID 
 | Make Try/Catch | H | 1hrs | .5 | .5 |
 | Add Axios and Await | H | 1hrs| .5 | .5 |
 | Create HTML structure | H | 1hrs| 1 | 1 |
-| Make CSS buttons and flexboxes | H | 3hrs| - | - |
+| Make CSS buttons and flexboxes | H | 3hrs| 3hrs | 3hrs |
 | Set up JS forms | H | 3hrs| 1 | 1 |
 | Add Eventlisteners | H | 3hrs| 1 | 1 |
 | Grab user input | H | 2hrs| 1.5 | 1.5 |
 | Link user's color choice to returned object ID's | H | 3hrs| 2 | 2 |
 | Return image of the object ID | H | 2hrs| 0 | 0 |
-| Add mediaQuery | H | 3hrs| - | - |
-| Format response and parameters | H | 2.5hrs| - | - |
-| Test functionality | H | 3hrs| - | - |
-| Add CSS picture frame | H | 3hrs| - | - |
-| Re-format page | H | 3hrs| - | - |
-| Style buttons and text responses | H | 3hrs| - | - |
-| Total | H | 49hrs| 5hrs | 5hrs |
+| Add mediaQuery | H | 3hrs| 3hrs | 3hrs |
+| Format response and parameters | H | 2.5hrs| 2 | 2 |
+| Test functionality | H | 3hrs| 3 | 3 |
+| Add CSS picture frame | H | 3hrs| 0 | 0 |
+| Re-format page | H | 3hrs| 2 | 2 |
+| Style buttons and text responses | H | 3hrs| 3 | 3 |
+| Total | H | 49hrs| 39.5hrs | 39.5hrs |
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
+With this function I felt that I had started to really understand how the API was working and gained a lot of confidence with the possibilities of accessing the API. For a while I thought I would have to use multiple API calls, but with more time working on the API I found a way to keep it at one API call. 
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
+function showImage(data) {
+  const imageContainer = document.querySelector("#art-image")
+  const artImage = `
+  <img src="${data.images[0].b.url}" alt="artwork" class="artwork"/>
+  `
+  imageContainer.insertAdjacentHTML("beforeend", artImage)
 }
 ```
 
 ## Change Log
- Use this section to document what changes were made and the reasoning behind those changes.  
+For one of my post-MVPs I decided it would be best not to add a border because of the changing image dimensions.
